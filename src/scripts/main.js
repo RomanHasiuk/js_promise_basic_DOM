@@ -24,7 +24,7 @@ const errorHandler = (error) => {
   const div = document.createElement('div');
 
   div.className = 'message error-message';
-  div.textContent = error;
+  div.textContent = error.message;
   document.body.appendChild(div);
 };
 
